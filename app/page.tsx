@@ -12,7 +12,7 @@ export default function ProductPage() {
   return (
     <main className="relative w-full overflow-x-hidden">
       {/* Logos */}
-      <div className="absolute -top-12 left-2 md:left-4 z-50 flex items-center gap-0">
+      <div className="absolute top-2 md:-top-12 left-2 md:left-4 z-50 flex items-center gap-0">
         <Image
           src="/logo2.png"
           alt="Logo 2"
@@ -39,7 +39,7 @@ export default function ProductPage() {
             alt="Hero Logo"
             width={600}
             height={600}
-            className="mb-0 h-[15rem] sm:h-[25rem] md:h-[35rem] lg:h-[40rem] w-auto object-contain mix-blend-multiply transition-all duration-700 hover:scale-[1.02]"
+            className="mb-0 h-[10rem] sm:h-[25rem] md:h-[35rem] lg:h-[40rem] w-auto object-contain mix-blend-multiply transition-all duration-700 hover:scale-[1.02]"
           />
           <motion.h1
             initial={{ opacity: 0, scale: 0.9 }}
@@ -97,7 +97,7 @@ export default function ProductPage() {
           initial={{ opacity: 0, y: 20 }}
           whileInView={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.6 }}
-          className="container mx-auto px-6 max-w-4xl text-center pb-20 -mt-48 md:-mt-64"
+          className="container mx-auto px-6 max-w-4xl text-center pb-20 -mt-10 md:-mt-64"
         >
           <p className="text-lg md:text-xl text-neutral-800 dark:text-neutral-200 font-medium leading-relaxed">
             DIGI BUS is an innovative startup focused on transforming the public transportation system in Tamil Nadu through advanced automated ticketing and real-time digital solutions. Our goal is to make bus travel smarter, faster and more transparent for passengers and transport authorities.
@@ -106,7 +106,7 @@ export default function ProductPage() {
       </section>
 
       {/* ================= WHAT WE DO SECTION ================= */}
-      <section className="relative py-24 bg-zinc-50 dark:bg-zinc-950 border-y overflow-hidden">
+      <section className="relative py-12 md:py-24 bg-zinc-50 dark:bg-zinc-950 border-y overflow-hidden">
         <div className="container mx-auto px-6 max-w-5xl text-center">
           <motion.div
             initial={{ opacity: 0, y: 20 }}
@@ -148,7 +148,7 @@ export default function ProductPage() {
       </section>
 
       {/* ================= OUR VISION SECTION ================= */}
-      <section className="relative py-24 bg-background overflow-hidden">
+      <section className="relative py-12 md:py-24 bg-background overflow-hidden">
         <div className="container mx-auto px-4 sm:px-6 max-w-4xl text-center">
           <motion.div
             initial={{ opacity: 0, scale: 0.95 }}
@@ -165,7 +165,7 @@ export default function ProductPage() {
       </section>
 
       {/* ================= ABOUT US PAGE CONTENT ================= */}
-      <section className="relative py-24 bg-zinc-50 dark:bg-zinc-950 border-y overflow-hidden">
+      <section className="relative py-12 md:py-24 bg-zinc-50 dark:bg-zinc-950 border-y overflow-hidden">
         <div className="container mx-auto px-6 max-w-6xl">
           <div className="grid grid-cols-1 md:grid-cols-2 gap-16 items-center">
             <motion.div
@@ -198,7 +198,7 @@ export default function ProductPage() {
               </div>
             </motion.div>
 
-            <div className="relative h-[400px] md:h-[500px] flex items-center justify-center">
+            <div className="relative h-[300px] md:h-[500px] flex items-center justify-center">
               <div className="absolute inset-0 bg-blue-500/5 dark:bg-blue-500/10 rounded-full blur-3xl" />
               <Globe className="relative z-10 w-full" />
             </div>
@@ -207,7 +207,7 @@ export default function ProductPage() {
       </section>
 
       {/* ================= SERVICES PAGE CONTENT ================= */}
-      <section className="relative py-24 bg-background overflow-hidden">
+      <section className="relative py-12 md:py-24 bg-background overflow-hidden">
         <div className="container mx-auto px-6 max-w-6xl">
           <div className="text-center mb-16">
             <h2 className="text-3xl md:text-6xl font-bold">Our Services</h2>
@@ -258,7 +258,7 @@ export default function ProductPage() {
       </section>
 
       {/* ================= TECHNOLOGY OVERVIEW SECTION ================= */}
-      <section className="relative py-24 bg-zinc-50 dark:bg-zinc-950 border-y overflow-hidden text-center">
+      <section className="relative py-12 md:py-24 bg-zinc-50 dark:bg-zinc-950 border-y overflow-hidden text-center">
         <div className="container mx-auto px-6 max-w-4xl">
           <h2 className="text-3xl md:text-5xl font-bold mb-8">Smart Transport Technology</h2>
           <p className="text-lg md:text-xl text-neutral-600 dark:text-neutral-400 mb-12">
@@ -276,7 +276,7 @@ export default function ProductPage() {
       </section>
 
       {/* ================= CONTACT US PAGE CONTENT ================= */}
-      <section className="flex flex-col items-center justify-center py-32 text-center px-6 bg-background">
+      <section className="flex flex-col items-center justify-center py-16 md:py-32 text-center px-6 bg-background">
         <h3 className="text-3xl md:text-5xl font-bold">
           Get in Touch with JEFFBEN
         </h3>
